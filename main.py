@@ -9,6 +9,7 @@ letters and rewards a second look.
 
 import os
 import stat
+import unicodedata
 
 WORD = "vellichor"
 
@@ -23,6 +24,11 @@ def validate(word):
     assert len(word) <= 24, "entry must be at most 24 characters"
     assert len(word.split()) == 1, "entry must be exactly one word"
     assert not word.isspace(), "entry must not be only whitespace"
+    # A word is readable text: reject control, format and other
+    # non-printing characters the gate's UTF-8 check would let through.
+    assert all(
+        not unicodedata.category(ch).startswith("C") for ch in word
+    ), "entry must not contain control characters"
     word.encode("utf-8")  # must be valid UTF-8 text
     return True
 
