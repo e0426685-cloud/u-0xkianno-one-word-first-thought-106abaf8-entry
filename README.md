@@ -1,3 +1,7 @@
+[![make.fun](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8.svg)](https://make.fun/c/u-0xkianno-one-word-first-thought-106abaf8)
+[![rank](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8/e0426685-cloud/u-0xkianno-one-word-first-thought-106abaf8-entry/rank.svg)](https://make.fun/c/u-0xkianno-one-word-first-thought-106abaf8)
+[![reward](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8/e0426685-cloud/u-0xkianno-one-word-first-thought-106abaf8-entry/reward.svg)](https://make.fun/c/u-0xkianno-one-word-first-thought-106abaf8)
+
 # One Word, First Thought
 
 make.fun bounty entry for **u-0xkianno-one-word-first-thought-106abaf8** — "One Word, First Thought" ($5, 7 paid places).
